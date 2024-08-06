@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Moviesflix</title>
+    <link rel="stylesheet" href="Index.css" />
+    <link rel="stylesheet" href="PhoneIndex.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="Tab_Index.css" />
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="navbar">
+          <div id="logo">
+            <a style="color: azure" href="./Index.html"
+              ><i style="color: cornflowerblue">H<sub>2</sub></i
+              >Movies</a
+            >
+          </div>
+
+          <div id="nav">
+            <button id="link1">
+              <a
+                style="color: azure; text-decoration: none"
+                href="./sign_in.html"
+                >Sign in</a
+              >
+            </button>
+          </div>
+        </div>
+
+        <img id="pics1" src="./movies_pictures/hero-welcome_ng_12092023.png" />
+
+        <div id="text1">
+          <h1 id="text2">Welcome to H<sub>2</sub>movies</h1>
+          <h1 id="text3">Enjoy exclusive Amazon Originals,</h1>
+          <h1 id="text4">popular movies and TV shows for</h1>
+          <h1 id="text5">#2,300/month. Watch now, cancel anytime.</h1>
+          <button id="but1">
+            <a
+              style="color: azure; text-decoration: none"
+              href="./sign_in.html"
+            >
+              <h1 id="text6">H<sub>2</sub>movies Member? Sign in</h1></a
+            >
+          </button>
+          <h1 id="text7">Or</h1>
+
+          <button id="but2">
+            <a style="color: azure; text-decoration: none" href="./trial.html"
+              ><h1 id="text8">Start your 7-day free trial</h1></a
+            >
+          </button>
+
+          <br />
+          <sup id="text11">*</sup>
+          <h1 id="text9">Cancel your trial anytime</h1>
+
+          <button id="but3">
+            <h1 id="text10">
+              <a
+                style="color: azure; text-decoration: none"
+                href="./sign_up.html"
+                >Sign up</a
+              >
+            </h1>
+          </button>
+        </div>
+      </div>
+
+      <div class="space">
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <img src="./movies_pictures/gang of lagos.png" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./movies_pictures/real setup.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./movies_pictures/shanty town.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./movies_pictures/she must be obyed.jpeg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./movies_pictures/the-black-book-2023.jpeg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./movies_pictures/judah.jpg" />
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+
+      <img id="phone_image1" src="./movies_pictures/IMG_6728.jpg" />
+
+      <div class="mobile_device">Watch on mobile Devices</div>
+
+      <div id="write_up">
+        <h1 id="sub_heading">Great Entertainment</h1>
+
+        <h1 id="write_up2">
+          Watch Tom Clancy's Jack Ryan, award-winning<br />
+          Amazon Originals such as The Boys and The<br />
+          Marvelous Mrs. Maisel,as well as popular movies<br />
+          and TV shows, with all titles available to download.
+        </h1>
+
+        <button id="but4">
+          <a style="color: azure; text-decoration: none" href="./trial.html">
+            Start your 7-day free trial</a
+          >
+        </button>
+      </div>
+
+      <div class="block_buster">Block Buster Movies</div>
+
+      <div id="white_space">
+        <img id="white_image1" src="./movies_pictures/circle imgae1.png" />
+
+        <h1 id="watch_anywhere1">Watch anywhere</h1>
+        <h1 id="watch_anywhere2">
+          Enjoy from the web or with the<br />
+          H2movies Video app on your phone,<br />
+          tablet, or select Smart TVs — on <br />up to 3 devices at once.
+        </h1>
+
+        <img id="white_image2" src="./movies_pictures/circle image2.png" />
+
+        <h1 id="xray1">X-Ray for more</h1>
+        <h1 id="xray2">
+          Use X-Ray for Movies and TV to identify<br />
+          actors and songs, explore actor bios,<br />
+          view trivia, and more.
+        </h1>
+
+        <img id="white_image3" src="./movies_pictures/circle imgae3.png" />
+
+        <h1 id="Data1">Data saver</h1>
+        <h1 id="data2">
+          Control data usage while downloading <br />and watching videos on
+          select phones <br />or tablets.
+        </h1>
+      </div>
+
+      <div id="footer">
+        <div id="footer_text1">
+          <i style="color: cornflowerblue">H<sub>2</sub></i
+          >Movies
+        </div>
+        <div id="footer_text2">Terms and privacy Notice</div>
+        <div id="footer_text3">Send Us Feedback</div>
+        <div id="footer_text4">Help</div>
+        <div id="footer_text5">
+          (c) 1996-2024, Nollywood.com, inc. or it's affiliates
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      const swiper = new Swiper(".swiper", {
+        autoplay: {
+          delay: 3000,
+          disableonInteraction: false,
+        },
+        loop: true,
+
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,189 @@
+body{
+    margin: 0%;
+    background-color: black;
+}
+
+#navbar{
+    width: 100%;
+    height: 10%;
+    
+}
+
+#logo{
+    color: azure;
+    position: absolute;
+    top: 20px;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+#background_pics{
+    width: 100%;
+    height: 100%;
+
+}
+
+#blur_background{
+    width: 1440px;
+    height: 780px;
+    background-color: rgba(10, 10, 10, 0.7);
+    position: absolute;
+    top: 1px;
+    
+}
+#footer{
+    position: absolute;
+    top: 760px;
+    width: 1440px;
+    height: 150px;
+    background-color: rgb(15, 15, 15);
+}
+#footer_text1{
+    position: absolute;
+    left: 670px;
+    top: 15px;
+    color: azure;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+#footer_text2{
+    position: absolute;
+    left: 550px;
+    top: 50px;
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+#footer_text3{
+    position: absolute;
+    left: 720px;
+    top: 50px;
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+#footer_text4{
+    position: absolute;
+    left: 850px;
+    top: 50px;
+    color: cornflowerblue;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+#footer_text5{
+    position: absolute;
+    left: 560px;
+    top: 80px;
+    color: azure;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+}
+
+#space{
+    width: 30%;
+    height: 75%;
+    background-color: rgba(10, 10, 10, 0.9);
+    border-radius: 20px;
+    position: absolute;
+    left: 35%;
+    bottom: 20%;
+}
+#Ab{
+    margin-left: 70px;
+    margin-top: 50px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(43, 41, 41);
+    color: azure;
+
+}
+#Ab1{
+    margin-left: 70px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(40, 38, 38);
+    color: azure;
+
+}
+#Ab2{
+    margin-left: 70px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    font-size: 15px;
+    color: azure;
+    border: none;
+    cursor: pointer;
+    
+
+}
+
+#me{
+    font-size: 13px;
+    margin-left: 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+
+}
+#link{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+}
+#Ab3{
+    margin-left: 130px;
+    width: 180px;
+    height: 50px;
+    border-radius: 5px;
+    background-color:  cornflowerblue;
+    cursor: pointer;
+    border: none;
+
+}
+#check_box{
+    position: absolute;
+    top: 410px;
+    left: 60px;
+
+}
+#check_text{
+    color: azure;
+    font-size: 15px;
+    position: absolute;
+    top: 410px;
+    left: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+#need_help{
+    color: azure;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 410px;
+    left: 300px;
+
+
+}
+#need_help1{
+    color: azure;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 55px;
+
+
+}
